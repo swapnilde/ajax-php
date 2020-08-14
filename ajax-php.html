@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AJAX with PHP</title>
+  
+  <style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {text-align: left;}
+
+#data{
+    height:100%; width:1200px; 
+    background-color:yellow;
+    padding:20px;
+    margin-top:30px;
+}
+#input{
+    width:600px;
+}
+</style>
+  
+</head>
+<body>
+	
+	<input type="text" id="input" placeholder="Enter an id or just press the button to get all users"></input>
+    <button id="button">Get User Details</button>
+    
+    <div id="data">
+    
+    </div>
+
+  <script src="ajax.js"></script>
+</body>
+</html>
